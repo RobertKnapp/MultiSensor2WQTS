@@ -4,4 +4,6 @@ The initial project includes code and sample data from a HOBO water temperature 
 The plan is to add additional sensors. 
 The WQTS database was developed and provide by the NW Indian Fisheries Commission
 University of Washington Department of Statistics students and facility contributed to this project. EPA TXG supported this work. 
+
+Robert Knapp <robert.jskt@gmail.com> 
 # More to come...
