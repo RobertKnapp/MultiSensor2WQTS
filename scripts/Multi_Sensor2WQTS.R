@@ -17,6 +17,8 @@ library(lubridate)
 library(janitor)
 library(rstudioapi)
 library(stringr)
+library("readxl")           # to read Excel files
+library("writexl")          # to write Excel files
 
 # Define sensor-specific column mappings
 sensor_mappings <- list(
@@ -137,4 +139,6 @@ ingest_sensor_data <- function() {
 # Example usage
 WQTS_data <- ingest_sensor_data()
 print(head(WQTS_data))
-
+# Read Data from Excel File
+WQTSData <- read_excel("WQTS_data.xlsx")
+write_xlsx(WQTS_data, "WQTS_data.xlsx")
